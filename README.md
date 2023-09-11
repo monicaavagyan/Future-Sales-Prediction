@@ -37,14 +37,33 @@ jupyter lab
 This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
-The modified Advertising dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/).Use the advertising dataset given in ISLR and analyse the relationship between 'TV advertising' and 'sales' using a simple linear regression model.
+The Advertising dataset consists of (200, 4) row & columns.We are going to  use the advertising dataset given in ISLR and analyse the relationship between 'TV,Radio & Newspaper advertising' and 'Sales' using a simple linear regression model. Each row in the dataset represents a different advertising campaign, and the columns represent various features related to those campaigns.
 
 
 
 **Features**
-1.  `RM`: average number of rooms per dwelling
-2. `LSTAT`: percentage of population considered lower status
-3. `PTRATIO`: pupil-teacher ratio by town
+1.  `TV`:  this column represents the amount of money spent on TV advertising (in thousands of dollars) for each campaign. It measures the advertising budget allocated to television commercials.
+2. `Radio`: this column represents the amount of money spent on radio advertising (in thousands of dollars) for each campaign. It measures the advertising budget allocated to radio commercials.
+3. `Newspaper`:  this column represents the amount of money spent on newspaper advertising (in thousands of dollars) for each campaign. It measures the advertising budget allocated to newspaper ads.
 
 **Target Variable**
-4. `MEDV`: median value of owner-occupied homes
+4. `Sales`:this column represents the sales generated (in thousands of units) as a result of each advertising campaign. It measures the effectiveness of the advertising in driving product sales.
+
+This type of analysis helps businesses make informed decisions about how to allocate their advertising budgets for maximum sales impact.
+
+
+
+
+
+
+
+
+
+
+### Need help?
+
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@iamsivab&color=success&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/monica-avagyan/)
+
+:email: Feel free to contact me @ [avagyanmonika3@gmail.com](https://mail.google.com/mail/)
+
+[![GMAIL](https://img.shields.io/static/v1.svg?label=send&message=balasiva001@gmail.com&color=red&logo=gmail&style=social)](https://[www.github.com/iamsivab](https://github.com/monicaavagyan)) 
