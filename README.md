@@ -50,13 +50,51 @@ The Advertising dataset consists of (200, 4) row & columns.We are going to  use 
 4. `Sales`:this column represents the sales generated (in thousands of units) as a result of each advertising campaign. It measures the effectiveness of the advertising in driving product sales.
 
 This type of analysis helps businesses make informed decisions about how to allocate their advertising budgets for maximum sales impact.
+The detailed comments about the output examples  on each step you can find in the `FutureSalesPrediction.ipynb` notebook file.
 
+# The results of  model: accuracy and prediction for the given project
+## Summary
+1.  `R-squared and adjusted R-squared :` 0.903 and 0.901 - with \"90%\" the model predicts accurately.
+2. `F-stats and Prob(F-stats) (overall model fit)` - 605.4 and 8.13e-997 (approx. 0.0) - Model is significant and the explained \"90%\" accuracy is not random.
+3. `p-values` - p-values for all coefficients except Newspaper are less than 0.05 significance level, which means that all predictors are statistically significant.
+4. The relationship between the independent variables and the dependent variable is `linear`. This assumption is supported by a high R-squared value indicating that the model fits the data well. 
+5. `Homoscedasticity.` The variance of the residuals is constant across all values of the independent variables. A Durbin-Watson statistic is close to 2, it suggests that the assumption of independence of residuals is likely met, and there is no significant autocorrelation. 
+6. `Normality.` the residuals are normally distributed. This assumption confirms the Jarque-Bera statistic (the Jarque-Bera test statistic is always positive, and if it is not close to zero, it indicates that the sample data does not have a normal distribution.) 
+7. `Independence.` the residues are independent of each other. This assumption is supported by the absence of autocorrelation in the residuals.
 
+`We applied the model we built to new data and got predictions`
 
+|        | Actual    | Predicted |
+| ------ | --------- |  ---------|
+| 123    | 15.2      | 15.072942 |
+| 37     | 14.7      | 14.134829 |
+| 4      | 17.9      | 15.547703 |
+| 138    | 9.6       | 9.802572 |
+| 17     | 24.4      | 24.160206 |
+| 145    | 10.3      | 12.355845 |
+| 177    | 16.7      | 14.632658 |
+| 90     | 14.0      | 12.367404 |
+| 83     | 13.6      | 13.245804 |
+| 110    | 18.4      | 17.676377 |
+| -----  |  -------- | --------- |
 
+To provide a summary,let calculate some common metrics used to evaluate the performance of predictive models. The most commonly used metrics for regression tasks are Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). Here are the calculations:
+Mean Absolute Error (MAE):
+MAE measures the average absolute difference between the actual and predicted values.
+Formula: MAE = (1/n) * Σ|actual - predicted|
+`Calculated MAE for your data: 2.398`
 
+Mean Squared Error (MSE):
+MSE measures the average squared difference between the actual and predicted values. It gives more weight to large errors.
+Formula: MSE = (1/n) * Σ(actual - predicted)^2
+`Calculated MSE for your data: 8.676`
 
+Root Mean Squared Error (RMSE):
+RMSE is the square root of MSE. It's a commonly used metric because it's in the same units as the target variable, making it easier to interpret.
+Formula: RMSE = √MSE
+`Calculated RMSE for your data: 2.946`
 
+These metrics provide a summary of how well  model's predictions match the actual values. Lower values of MAE, MSE, and RMSE indicate better model performance. In this case, a lower RMSE suggests that the model's predictions are generally close to the actual values.
 
 
 
@@ -64,7 +102,6 @@ This type of analysis helps businesses make informed decisions about how to allo
 [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@monica-avagyan&color=success&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/monica-avagyan/)
 
 
-:email: Feel free to contact me @ [avagyanmonika3@gmail.com](https://mail.google.com/mail/)
-
 [![GitHub](https://img.shields.io/static/v1.svg?label=connect&message=@monicaavagyan&color=success&logo=github&style=flat&logoColor=white&colorA=blue)](https://github.com/monicaavagyan)
 
+:email: Feel free to contact me @ [avagyanmonika3@gmail.com](https://mail.google.com/mail/)
