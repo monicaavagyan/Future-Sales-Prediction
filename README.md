@@ -60,10 +60,11 @@ This type of analysis helps businesses make informed decisions about how to allo
 
 
 
-### Need help?
+### Have questions, contact me.
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@monica-avagyan&color=success&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/monica-avagyan/)
 
-[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@iamsivab&color=success&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/monica-avagyan/)
 
 :email: Feel free to contact me @ [avagyanmonika3@gmail.com](https://mail.google.com/mail/)
 
-[![GMAIL](https://img.shields.io/static/v1.svg?label=send&message=balasiva001@gmail.com&color=red&logo=gmail&style=social)](https://[www.github.com/iamsivab](https://github.com/monicaavagyan)) 
+[![GitHub](https://img.shields.io/static/v1.svg?label=connect&message=@monicaavagyan&color=success&logo=github&style=flat&logoColor=white&colorA=blue)](https://github.com/monicaavagyan)
+
