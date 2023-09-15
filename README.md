@@ -21,13 +21,13 @@ Template code is provided in the `FutureSalesPrediction.ipynb` notebook file. Yo
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `FutureSalesPrediction./` (that contains this README) and run one of the following commands:
 ```bash
-ipython notebook boston_housing.ipynb
+ipython notebook FutureSalesPrediction..ipynb
 ```  
 or
 ```bash
-jupyter notebook boston_housing.ipynb
+jupyter notebook FutureSalesPrediction..ipynb
 ```
 or open with Juoyter Lab
 ```bash
