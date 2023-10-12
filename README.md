@@ -1,4 +1,4 @@
-# TUMO LAB student Monica
+# TUMO LABs
 # Model Building, Evaluation and Validation
 ## Project:  Future-Sales-Prediction
 
